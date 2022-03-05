@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #45a8d6;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 2;
+  padding: 3rem;
+}
+
+
+
+.logo img {
+  height: 10rem;
+  object-fit: center;
+}
+
+
+.logo nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo nav li {
+  margin: 0 3.6rem;
+}
+
+.logo nav li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #181b1d;
+}
+
+.logo nav li a:hover {
+  color: darkorange;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: url(img/music.svg) no-repeat;
+  background-size: 100% 10rem;
+  background-position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+     
+}
+
+.container .image {
+  margin-top: -5rem;
+}
+
+.container .image img {
+  width: 40vw;
+}
+
+.container .content {
+  margin-top: 13rem;
+  width: 40vw;
+  -webkit-animation: animate 1s ease 1;
+          animation: animate 1s ease 1;
+}
+
+.container .content h1 {
+  font-size: 5rem;
+  color: #181b1d;
+}
+
+.container .content h3 {
+  font-size: 2.3rem;
+  color: darkorange;
+  margin: 1rem 0;
+}
+
+.container .content p {
+  font-size: 1.3rem;
+  color: #181b1d;
+}
+
+.container .content .buttons button {
+  height: 4rem;
+  width: 14rem;
+  background: darkorange;
+  color: #181b1d;
+  border-radius: 5rem;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+  border: none;
+}
+
+.container .content .buttons button:hover {
+  background: #181b1d;
+  color: darkorange;
+}
+
+.container .content .buttons a:nth-child(2) button {
+  margin-left: 2rem;
+}
+
+.container .content .icons {
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content .icons a {
+  text-decoration: none;
+  color: #181b1d;
+  font-size: 2.7rem;
+}
+
+.container .content .icons a:hover {
+  color: darkorange;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+/*# sourceMappingURL=style.css.map */
